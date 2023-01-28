@@ -1,0 +1,23 @@
+.search_blog{
+    display: flex;
+    align-items: center;
+    span{
+        font-size: 30px;
+        margin-top: 5px;
+        cursor: pointer;
+
+    }
+    .search_input{
+        padding: 9px 35px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background: #FFE15D;
+        color: black;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+    
+}

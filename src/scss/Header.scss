@@ -1,0 +1,80 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+
+    .wrapper_menu {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        img {
+            cursor: pointer;
+        }
+
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 700;
+            font-size: 23px;
+            letter-spacing: 1.5px;
+            color: #181818;
+            cursor: pointer;
+        }
+
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #7B7B7B;
+        }
+    }
+
+    .wrapper_card {
+        cursor: pointer;
+        display: flex;
+        gap: 20px;
+        border: 1px solid black;
+        padding: 0px 15px;
+        align-items: center;
+        height: 35px;
+        border-radius: 20px;
+        background: #FE5F1E;
+        color: white;
+        border: none;
+
+        .card_price {
+            border-right: 2px solid black;
+            padding: 0 10px;
+        }
+
+        b {
+
+            text-align: left;
+        }
+
+        .icon {
+            margin-right: 7px;
+        }
+
+    }
+
+    .wrapper_card:hover {
+        background: #e99675;
+        color: #181818;
+        transition: ease-in-out 0.4s;
+    }
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 630px){
+    .wrapper{
+        display: grid;
+        justify-content: center;
+        grid-gap: 20px;
+        .wrapper_card{
+            width: 150px;
+            justify-content: center;
+            margin: 0 auto;
+        }
+    }
+}

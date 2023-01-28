@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+@import "./scss/HomePage.scss";
+@import "./scss/Header.scss";
+@import "./scss/Navbar.scss";
+@import "./scss/Cart.scss";
+@import "./scss/Basket.scss";
+@import "./scss/Search.scss"

@@ -1,0 +1,196 @@
+.basket {
+    display: flex;
+
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+
+    .basket_img {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+}
+
+.basket_product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .basket_name {
+        margin-right: 30px;
+        line-height: 27px;
+
+        h3 {
+            letter-spacing: 2px;
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        p {
+            font-size: 18px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #8D8D8D;
+            letter-spacing: 1.5px;
+            margin-left: 2px;
+        }
+    }
+
+    .basket_amount {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        p {
+            border: 1px solid #FE5F1E;
+            padding: 5px 10px;
+            border-radius: 50%;
+            color: #FE5F1E;
+            cursor: pointer;
+        }
+
+        b {
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        p:hover {
+            color: black;
+            border: 1px solid black;
+        }
+
+    }
+
+    .basket_price {
+        display: flex;
+
+        b {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+
+            span {
+                margin-left: 10px;
+            }
+        }
+
+    }
+
+    .basket_close {
+        border: 1px solid #FE5F1E;
+        padding: 6px 8px;
+        border-radius: 50%;
+        align-items: center;
+        color: #FE5F1E;
+        cursor: pointer;
+    }
+
+    .basket_close:hover {
+        color: black;
+        border: 1px solid black;
+    }
+
+}
+
+.basket_total {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    .basket_total_amount {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        b {
+            color: #FE5F1E;
+            font-size: 22px;
+        }
+    }
+
+    .basket_total_sum {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        b {
+            color: #FE5F1E;
+        }
+
+    }
+
+}
+
+.basket_btn {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    button {
+        padding: 10px 18px;
+        border-radius: 10px;
+        border: none;
+        color: #FE5F1E;
+        font-size: 17px;
+        border: 1px solid;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        
+    }
+
+    button:hover {
+        background: #FE5F1E;
+        color: black;
+
+    }
+}
+.product_basket{
+    display: grid;
+    grid-gap: 20px;
+}
+.basket_empty{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    b{
+        letter-spacing: 1.5px;
+        color: #777777;
+
+    }
+    img{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    button{
+        padding: 12px;
+        width: 40%;
+        margin: 0 auto;
+        border: 2px solid #FE5F1E;
+        border-radius: 15px;
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        cursor: pointer;
+
+    }
+    button:hover{
+        background: #FE5F1E;
+        
+    }
+}
