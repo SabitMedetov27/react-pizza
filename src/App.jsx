@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/pizza-project" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/basket" element={<Basket />} />
       </Routes>
     </div>
